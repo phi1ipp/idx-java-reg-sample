@@ -1,0 +1,9 @@
+okta:
+  idx:
+    issuer: "... redacted ..." # e.g. https://foo.okta.com/oauth2/default, https://foo.okta.com/oauth2/ausar5vgt5TSDsfcJ0h7
+    clientId: "... redacted ..."
+    clientSecret: "... redacted ..." # Required for confidential clients
+    scopes:
+      - "openid"
+      - "profile"
+    redirectUri: "... your app login redirect URL ..."
